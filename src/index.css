@@ -1,0 +1,28 @@
+body {
+    background-color: #192a56;
+    color: #f5f6fa;
+  }
+  * {
+    font-family: 'Poppins', sans-serif;
+  }
+  .container {
+    max-width: 1300px;
+    margin: auto;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .navbar {
+   margin-top: 20px;
+   margin-bottom: 40px;
+  }
+  .input-container {
+    margin-bottom: 40px;
+  }
+  .redHeart {
+    font-size: 30px;
+    color: orange;
+  }
+  .app {
+    margin: 50px 0px;
+  }

@@ -1,0 +1,29 @@
+.searchInp {
+    height: 50px;
+    width: 1200px;
+    max-width: 94%;
+    padding: 0px 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid  rgb(9, 13, 14);
+    color: black;
+}
+.input-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.searchIcon {
+    position: absolute;
+    right: 70px;
+    top: 15px;
+    pointer-events: none;
+    color: rgb(20, 7, 56);
+}
+@media ( max-width:768px) {
+    .searchIcon {right: 50px;}
+}
+@media ( max-width:350px) {
+    .searchIcon {right: 30px;}
+}
